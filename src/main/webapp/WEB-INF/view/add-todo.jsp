@@ -4,15 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Yahoo!!!!!!!!</title>
+<title>Welcome</title>
 </head>
 <body>
-My First Servlet from JSP
-<form action="/login" method="post">
-<p><font color="red">${errorMessage }</font></p>
-Enter your name <input type="text" name="name"/> 
-Password <input type="password" name="password"/>
-<input type="submit" value="Login"/>
+Hi ${name} <br/>
+Please add a new todo: 
+<form method="post">
+	<input type="text" name="desc"/>
+	<input type="submit" value="Add"/> 
 </form>
 </body>
 
