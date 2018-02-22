@@ -34,6 +34,19 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>4.0.1.RELEASE</version>
+  		</dependency>
+
+       <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>4.0.1.RELEASE</version>
+        </dependency>	
+		
+		
+		<dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
             <version>3.3.6</version>
@@ -50,6 +63,19 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.assylias</groupId>
+			<artifactId>jbloomberg</artifactId>
+			<version>3.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.bloombergblp</groupId>
+			<artifactId>blpapi</artifactId>
+			<version>3.9.3.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
